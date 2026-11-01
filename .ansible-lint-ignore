@@ -1,0 +1,3 @@
+# This file contains ignores rule violations for ansible-lint
+playbooks/setup_snarkos.yml syntax-check[specific]
+vars/snarkos_vars.yml yaml[new-line-at-end-of-file]
